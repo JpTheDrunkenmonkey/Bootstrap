@@ -1,0 +1,41 @@
+.container{
+    margin-top: 40px;
+}
+.carding{
+ margin: 20px;
+}
+
+.card{
+margin-top: 10px;
+margin-bottom: 15px;
+position: relative;
+box-shadow: 1px 3px 20px 0px rgba(46,61,73,0.15);
+}
+
+
+.col-md-4{
+    text-align: center;
+}
+
+.card-items{
+    margin: 10px;
+}
+
+.card a{
+    width: 90%;
+    margin: 10px;
+}
+
+hr{
+    margin: 2%;
+}
+
+.bottom{
+    margin: 10px;
+    margin-top: 3%;
+}
+
+.card-text{
+    font-size: 17px;
+    font-weight: 490;
+}

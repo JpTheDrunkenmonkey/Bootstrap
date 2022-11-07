@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="checkout.css">
+    <title>Checkout Form</title>
+</head>
+
+<body>
+    <div class="top">
+        <img style="max-width: 100%;" src="favicon.ico" alt="">
+        <h3>Checkout form</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, voluptates optio. Quas eveniet corporis
+            similique reprehenderit totam accusantium soluta voluptatum. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Quidem, corporis?</p>
+    </div>
+<div class="row total">
+        <div class="col-md-8">
+        <h3>Billing address</h3>
+          <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="firstname">First name</label>
+                    <input type="text" class="form-control" id="firstname">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="lastname">Last name</label>
+                    <input type="text" class="form-control" id="lastname">
+                </div>
+            </div>
+          </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="username">User name</label>
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">@</span>
+                        <input type="text" class="form-control" id="firstname">
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+            </div>
+        </div>
+        <div class="row">    
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <input type="text" class="form-control" id="address">
+                </div>
+            </div>
+        </div>
+        <div class="row">    
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="address2">Address 2</label>
+                    <input type="text" class="form-control" id="address2">
+                </div>
+            </div>
+        </div>    
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="form-group">
+                    <label for="country">Country</label>
+                    <select name="" class="form-control" id="country">
+                        <option>choose...</option>
+                    </select>
+                </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="state">State</label>
+                    <select name="" class="form-control" id="state">
+                        <option>choose...</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                    <label for="zip">Zip</label>
+                    <input type="text" class="form-control" id="zip">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="">
+            <p>Shipping address is the same as my billing address</p>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="">
+                <p>Save this information for next time</p>
+            </div>
+          <div class="payment">
+            <h3>Payment</h3>
+            <ul class="input-ratio" style="list-style-type: none;">
+            <li><input type="radio" name="Credit card" id=""> Credit card</li>
+            <li><input type="radio" name="Credit card" id=""> Debit card</li>
+            <li><input type="radio" name="Credit card" id=""> Paypal</li>
+            </ul>
+            <div class="row">
+                <div class="col-md-6">
+                 <div class="form-group">
+                  <label for="cardname">Name on card</label>
+                  <input type="text" class="form-control" id="cardname">
+                  <small class="form-text text-muted">Full name as displayed on card</small> 
+                 </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                    <label for="cardnumber">Credit card number</label>
+                    <input type="text" class="form-control" id="cardnumber">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                    <div class="col">
+                        <label for="exp">Expiration</label>
+                        <input type="text" class="form-control" id="exp">
+                    </div>
+                    <div class="col">
+                        <label for="cvv">CVV</label>
+                        <input type="text" class="form-control" id="cvv">
+                    </div>
+                </div>
+                </div>
+            </div>
+          </div> 
+        </div>
+        
+    <div class="col-md-4">
+        <div class="d-flex justify-content-between align-items-center">
+         <h3>Your cart </h3><span class="badge badge-secondary badge-pill badgetop">3</span> 
+        </div>  
+         <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div> Product name  <br><small class="text-muted">Brief description</small></div>
+                <span class="badge badge-pill badgeitem">$12</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div> Second item  <br><small class="text-muted">Brief description</small></div>
+                <span class="badge badge-pill badgeitem">$8</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div> Third item  <br><small class="text-muted">Brief description</small></div>
+                <span class="badge badge-pill badgeitem">$5</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center promo">
+                <div> Promo code  <br><small>EXAMPLECODE</small></div>
+                <span class="badge badge-pill badgepromo">-$5</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                 Total (USD)  
+                <span class="badge badge-pill badgetop">$20</span>
+            </li>
+        </ul>
+         <div class="form-control redeem">
+            <div class="input-group-append">
+            <input type="text" class="form-control" placeholder="Promo code">
+            <button class="btn btn-secondary">Redeem</button>
+            </div>
+         </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-8">
+        <hr>
+        <a href="#" class="btn btn-primary checkout">Continue to checkout</a> 
+    </div>
+</div>
+<div class="container">
+    <div class="footer">
+        <small>&copy; 2017-2018 Company Name</small>
+    </div>
+    <div class="footerlink">
+    <a href="">Privacy</a>
+    <a href="">Terms</a>
+    <a href="">Support</a>
+    </div>
+</div>
+
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>
